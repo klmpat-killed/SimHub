@@ -1,5 +1,5 @@
 # SimHub
 > Work on Solara, Delta!
 ```
-loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/klmpat-killed/SimHub/refs/heads/main/source.txt'))()
 ```
