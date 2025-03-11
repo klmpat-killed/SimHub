@@ -1,0 +1,30 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("SimHub", "Synapse")
+
+local Tab = Window:NewTab(" ")
+
+local Section = Tab:NewSection("All")
+
+Section:NewButton("Fly", " ", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+end)
+
+Section:NewButton("Inf Yield", " ", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+end)
+
+Section:NewButton("Nameless Admin", " ", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/FD2Team/Nameless-Admin-No-Byfron-Kick/main/Source",true))()
+end)
+
+
+Section:NewButton("BTools", " ", function()
+   loadstring(game:GetObjects("rbxassetid://6695644299")[1].Source)()
+end)
+
+Section:NewSlider("WalkSpeed", " ", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+Section:NewLabel("By kirillgame683")
