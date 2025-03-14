@@ -49,5 +49,10 @@ Section2:NewButton("MM2", " ", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/as6cd0/SP_Hub/refs/heads/main/Brookhaven"))()
  end)
 
+ Section2:NewButton("Tower Of Jump (TP)", " ", function()
+   local p = game.Players.LocalPlayer.Character.HumanoidRootPart
+   p.CFrame = CFrame.new(31.9999981, 223.288376, 142.486877, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+ end)
+
 Section:NewLabel("By kirillgame683")
 Section2:NewLabel("By kirillgame683")
